@@ -1,4 +1,4 @@
-<?php
+<?php namespace Tsmith86\RSSPHP;
 
 /**
  * RSS for PHP - small and easy-to-use library for consuming an RSS Feed
@@ -9,6 +9,8 @@
  * @link       http://phpfashion.com/
  * @version    1.0
  */
+
+
 class Feed
 {
 	/** @var int */

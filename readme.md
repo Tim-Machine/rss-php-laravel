@@ -1,5 +1,33 @@
 RSS & Atom Feeds for PHP (c) David Grudl, 2008 (http://davidgrudl.com)
 
+-----------------------------
+#This is a fork created to work with Laravel 
+
+-----------------------------
+
+###Installing Laravel
+
+```php
+# /app/config/app.php
+
+## add to providers
+
+'providers' => array(
+		...
+		'Tsmith86\RssPHP\RssPHPServiceProvider',
+		),
+
+## add to aliases
+
+'aliases' => array(
+	...
+	'Feed' => 'Tsmith86\RssPHP\Feed',
+	),
+
+```
+
+
+
 
 Introduction
 ------------
